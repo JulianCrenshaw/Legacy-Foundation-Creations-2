@@ -89,6 +89,18 @@ h2 {
 
 p {
     color: white;
+    margin-bottom: 20px;
+}
+
+details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    text-align: center;
+    padding: 0 20px;
+    cursor: pointer;
+   
 }
 
 ul {
@@ -205,7 +217,7 @@ display: flex;
 
 .intro {
     margin: 20px;
-    color: goldenrod;
+    color: rgb(247, 229, 131);
 }
 
 p {
@@ -238,6 +250,10 @@ height: 50%;
     width: 300px;
     height: 100%;
 }
+.weddings {
+    width: 400px;
+    height: 100%;
+}
 
 .reverb__photo {
     margin-bottom: 50px;
@@ -250,8 +266,6 @@ height: 50%;
     margin: 20px;
     justify-content: space-around;
     border-bottom: solid 1px wheat;
-    width: 100%;
-    height: auto;
 }
 
 .dance-reverb__bio {
@@ -404,6 +418,10 @@ footer {
     justify-content: start;
    }
 
+   .weddings {
+    display: none;
+   }
+
    .julianredbull {
     display: none;
    }
@@ -412,4 +430,11 @@ footer {
     width: 100%;
     height: auto;
    }
+
+   #djreverb, #dance-reverb,
+   #video-reverb, #photo-reverb {
+    display: flex;
+    flex-direction: column;
+   }
+
 }
