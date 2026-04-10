@@ -308,8 +308,8 @@ nav {
     background: #ffffff;
     padding: 20px;
     border-radius: 20px;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     box-shadow: 0 8px 8px whitesmoke;
     animation: fading 400ms ease;
 }
@@ -332,8 +332,18 @@ nav {
 }
 
 fieldset {
-    
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
+    height: 300px;
+}
+
+.name {
+    width: 50%;
+}
+
+.contact {
+    width: 25%;
 }
 
 /* FOOTER */

@@ -10,5 +10,5 @@ hamburger.addEventListener('click', () => {
 
 function offers() {
 const offers= document.getElementById("ourOffers")
-offers.innerHTML =  "dance all night! and all day non stop! <br>and dance all night!"
+offers.innerHTML =  "Every day is a new beginning! Don't let the opportunities pass you by! <br>go out, meet new people, and enjoy life!"
 }

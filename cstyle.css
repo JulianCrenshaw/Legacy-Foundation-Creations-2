@@ -89,7 +89,19 @@ h2 {
 
 p {
     color: white;
+    margin-bottom: 20px;
 }
+
+details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
 
 ul {
     display: flex;
@@ -209,9 +221,6 @@ display: flex;
     color: rgb(247, 229, 131);
 }
 
-p {
-    color: white;
-}
 
 .biography__wrapper {
     border-bottom: solid 1px wheat;
@@ -423,6 +432,11 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+.model-red {
+    display: none;
+}
+
 #photo-chari {
     display: flex;
     flex-direction: column;
