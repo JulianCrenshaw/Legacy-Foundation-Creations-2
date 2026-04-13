@@ -17,7 +17,9 @@ body {
 }
 
 
-
+.profile__photo {
+    border-radius: 20px;
+}
 
 header {
     padding: 0;
@@ -253,10 +255,12 @@ height: 50%;
 .weddings {
     width: 400px;
     height: 100%;
+ 
 }
 
 .reverb__photo {
     margin-bottom: 50px;
+ 
 }
 
 /* DANCE */
