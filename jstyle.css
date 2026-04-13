@@ -252,11 +252,6 @@ height: 50%;
     width: 300px;
     height: 100%;
 }
-.weddings {
-    width: 400px;
-    height: 100%;
- 
-}
 
 .reverb__photo {
     margin-bottom: 50px;
@@ -434,11 +429,4 @@ footer {
     width: 100%;
     height: auto;
    }
-
-   #djreverb, #dance-reverb,
-   #video-reverb, #photo-reverb {
-    display: flex;
-    flex-direction: column;
-   }
-
 }
