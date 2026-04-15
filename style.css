@@ -320,6 +320,21 @@ display: flex;
     transform: scale(1.1);
 }
 
+/* WELCOME */
+
+.group {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.group__img {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+
+
 /* FOOTER */
 
 footer {
