@@ -333,6 +333,19 @@ display: flex;
     -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
 }
 
+.group__caption {
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.group__para {
+    max-width: 700px;
+    margin-bottom: 50px;
+
+}
+
 
 
 /* FOOTER */
