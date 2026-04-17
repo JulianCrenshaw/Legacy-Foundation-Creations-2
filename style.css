@@ -507,9 +507,6 @@ button {
     padding-top: 100px;
    }
 
-    .page__link {
-    pointer-events: none;
-}
 
    .photo__one {
     position: relative;
